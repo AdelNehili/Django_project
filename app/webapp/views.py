@@ -4,3 +4,8 @@ from django.http import HttpResponse
 
 def welcome(request):
     return render(request, "welcome.html")
+
+
+def product(request):
+    return render(request, "product.html")
+
