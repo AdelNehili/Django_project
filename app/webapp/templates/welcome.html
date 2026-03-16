@@ -1,9 +1,27 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>Welcome</title>
+    <link rel="stylesheet" href="{% static 'webapp/css/style.css' %}">
 </head>
+
 <body>
-    <h1>Welcome to my NEW Django App!</h1>
+
+    <div class="navbar">
+        <h1>My Django Store</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Welcome</h2>
+            <p>This is my modern Django webapp.</p>
+            <a class="btn" href="/product">View products</a>
+        </div>
+
+    </div>
+
 </body>
 </html>
